@@ -28,6 +28,7 @@ Identified an optimal mix of high-demand and high-paying skills for data analyst
 Delivered actionable insights for aspiring analysts to focus on the most valuable skills in the job market.
 
 📘 GitHub README — Data Job Market Analysis (Python Project)
+
 🧠 Overview
 
 Welcome to my Data Job Market Analysis project!
@@ -58,28 +59,18 @@ Imported the dataset using the datasets library.
 
 Converted dates and skill lists into usable formats.
 
-Filtered the data to focus on U.S.-based job roles.
+Filtered the data to focus on India-based job roles.
 
 Removed missing or inconsistent entries for accurate analysis.
 
-import ast
-import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
-from datasets import load_dataset
 
-dataset = load_dataset('lukebarousse/data_jobs')
-df = dataset['train'].to_pandas()
-df['job_posted_date'] = pd.to_datetime(df['job_posted_date'])
-df['job_skills'] = df['job_skills'].apply(lambda x: ast.literal_eval(x) if pd.notna(x) else x)
-df_US = df[df['job_country'] == 'United States']
 
 📊 Key Analyses
 
 Top Skills for the Most Popular Roles
 → SQL, Python, and Excel are the most requested across top data roles.
 
-Trending Skills for Data Analysts (2023)
+Trending Skills for Data Analysts (2024)
 → SQL maintained dominance; Excel and Power BI showed rising trends.
 
 Salary Analysis for Data Roles
