@@ -113,19 +113,7 @@ Identified actionable insights to guide learning paths for analysts.
 
 Improved data visualization and interpretation skills.
 
-🧩 Repository Structure
-📂 Data_Job_Market_Analysis
-│
-├── 📜 1_Data_Cleaning.ipynb
-├── 📜 2_Skill_Demand.ipynb
-├── 📜 3_Skill_Trend.ipynb
-├── 📜 4_Salary_Analysis.ipynb
-├── 📜 5_Optimal_Skills.ipynb
-├── 📊 visuals/
-│   ├── skill_trends.png
-│   ├── salary_distribution.png
-│   └── optimal_skills.png
-└── README.md
+
 
 🏁 Conclusion
 
