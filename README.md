@@ -5,7 +5,7 @@ S — Situation:
 The data analytics job market is constantly evolving, and understanding which skills are in high demand or command higher salaries can be confusing for analysts planning their career path.
 
 T — Task:
-Analyze the U.S. data job market dataset from Luke Barousse’s Python Course to identify trends, top-paying skills, and the most in-demand tools for data analyst roles.
+Analyze the INDIA data job market dataset from Luke Barousse’s Python Course to identify trends, top-paying skills, and the most in-demand tools for data analyst roles.
 
 A — Action:
 
